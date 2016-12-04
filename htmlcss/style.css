@@ -1,0 +1,18 @@
+body{
+	font-family: Arial;
+	margin: 0% 30%;
+}
+
+.photo img{
+	width: 40%;
+	text-align: center;
+}
+
+.telephon{
+	margin-left: 20px;
+}
+
+
+.link{
+	font-style: italic;
+}
