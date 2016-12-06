@@ -4,9 +4,12 @@ body{
 	margin: auto;
 }
 
+
 .photo img{
 	width: 35%;
+	text-align: center;
 }
+
 
 .cont{
 	margin-left: 40px;
