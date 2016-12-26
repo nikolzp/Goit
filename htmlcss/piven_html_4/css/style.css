@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../img/bacground.png);
+	font-family: Arial;
+}
+
+.site {
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	box-shadow: 0 0 5px;
+}
+
+/*header*/
+.logo {
+	float: left;
+	text-decoration: blink;
+	margin-left: 30px;
+}
+
+.contacts {
+	float: right;
+	margin-right: 35px;
+	margin-top: 5px;
+	margin-bottom: 24px; 
+}
+
+.contacts p {
+	line-height: 150%;
+	font-size: 12px;
+	color: #4c8b9f; 
+}
+
+.contacts p:first-child {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.countrys {
+	clear: right;
+	float: right;
+	margin-right: 35px;
+}
+
+.countrys li {
+	display: inline-block;
+	padding: 5px;
+}
+
+/*menu*/
+.menu {
+	background-color: #323232;
+	margin-top: -3px;
+	padding: 10px 10px 10px 50px;
+	font-size: 16px;
+	line-height: 130%;
+}
+
+.menu li {
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.menu li ul {
+	display: block;
+	position: absolute;
+	display: none;
+	width: 150px;
+	padding-left: 10px;
+	background-color: #323232;
+}
+
+.menu li:hover ul {
+	display: block;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+
+/*content*/
+.content {
+	float: left;
+	overflow: hidden;
+	border-bottom: 2px solid black;
+	box-shadow: 0 0 5px;
+}
+
+.content p:first-child {
+	padding: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.content p {
+	line-height: 150%;
+}
+
+.information {
+	background-color: #edeef0;
+	border-right: 1px solid gray;
+	float: left;
+	width: 210px;
+	padding-left: 10px;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+
+.news {
+	background-color: #edeef0;
+	border-left: 1px solid gray;
+	float: right;
+	width: 210px;
+	padding-left: 10px;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+
+.article {
+	float: left;
+	background-color: white;
+	width: 560px;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+
+
+/*footer*/
+footer {
+	clear: both;
+	display: block;
+	color: white;
+	text-align: center;
+}
