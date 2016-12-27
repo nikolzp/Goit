@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body .site{
+	background: url("../img/bacground.png");
+	width: 1215px;
+	height: 1064px;
+	margin: auto;
+}
+
+.menu {
+	height: 37px;
+	background: url("../img/menu-bacground.png"); 
+}
+
+.menu li {
+	display: inline-block;
+	float: right;
+	margin-right: 35px;
+}
+.menu a {
+	text-decoration: none;
+	color: #53a4dd;
+}
