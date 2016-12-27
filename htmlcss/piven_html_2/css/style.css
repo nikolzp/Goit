@@ -1,0 +1,35 @@
+body{
+	font-family: Arial;
+	width: 550px;
+	margin: auto;
+}
+
+.header{
+	text-align: center;
+}
+
+.header p{
+	text-align: left;
+}
+
+.liblock,
+.comtacts,
+.feedback{
+	border-top: 1px solid silver;
+}
+
+.content{
+	margin-left: 40px;
+}
+
+.comtacts a{
+	font-style: italic;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.theme{
+	font-size: 18px;
+	font-weight: bold; 
+}
+
