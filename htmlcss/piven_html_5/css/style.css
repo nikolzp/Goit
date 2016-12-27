@@ -3,24 +3,113 @@
 	padding: 0;
 }
 
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body .site{
 	background: url("../img/bacground.png");
 	width: 1215px;
 	height: 1064px;
 	margin: auto;
+	font-family: "helvetica_neueregular"
 }
 
-.menu {
-	height: 37px;
+/*menu*/
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	background: url("../img/menu-bacground.png"); 
 }
 
 .menu li {
-	display: inline-block;
-	float: right;
-	margin-right: 35px;
+	display: inline-flex;
+	align-items: center;
 }
+
+.menu img {
+	margin: 0 10px;
+}
+
 .menu a {
+	padding: 8px 12px;
+	display: block;
 	text-decoration: none;
 	color: #53a4dd;
 }
+
+.ola{
+	padding-left: 10px;
+	margin-right: 10px;
+}
+.menu .ola,
+.menu .ola a {
+	color: white;
+}
+
+.menu .ola:hover {
+	background: url("../img/button-fon.png");
+}
+
+.menu .ola a:hover {
+	background: url("../img/button-fon.png");
+	text-decoration: underline;
+}
+
+.menu .minhas {
+	color: white;
+}
+
+.menu a:hover {
+	background-color: #4eabda;
+	color: white;
+}
+
+/*registration*/
+.registration {
+	background-color: rgba(0,0,0,0.6);
+	width: 560px;
+	height: 613px;
+	margin: auto;
+	margin-top: 205px;
+}
+
+.cadastre p{
+	color: white;
+	text-align: center;
+	font-size: 26px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid white;
+}
+
+.faceboock {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.line {
+	text-align: center;
+	padding: 20px;
+}
+
+.forma form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.forma input {
+	padding-left: 15px;
+	margin-bottom: 20px;
+	height: 36px;
+	width: 257px;
+	background-color: black;
+	border: none;
+} 
