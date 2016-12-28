@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	border: none;
 }
 
 @font-face {
@@ -45,11 +46,13 @@ body .site{
 
 .ola{
 	padding-left: 5px;
-	margin-right: 10px;
+	margin-right: 15px;
 }
 .menu .ola,
 .menu .ola a {
 	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .menu .ola:hover {
@@ -74,23 +77,23 @@ body .site{
 .registration {
 	background-color: rgba(0,0,0,0.6);
 	width: 560px;
-	height: 613px;
+	height: 620px;
 	margin: auto;
-	margin-top: 205px;
+	margin-top: 210px;
 }
 
 .cadastre p{
 	color: white;
 	text-align: center;
 	font-size: 26px;
-	padding-top: 20px;
-	padding-bottom: 5px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 	border-bottom: 2px solid white;
 }
 
 .faceboock {
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 45px;
 }
 
 .line {
@@ -106,9 +109,49 @@ body .site{
 
 .forma input {
 	padding-left: 15px;
-	margin-bottom: 20px;
-	height: 36px;
-	width: 257px;
+	margin-bottom: 18px;
+	height: 38px;
+	width: 250px;
+	color: white;
 	background-color: black;
-	border: none;
+	border-bottom: 1px solid #4a4a4a;
 } 
+
+.forma input:hover {
+	box-shadow: 0px 0px 10px 3px rgba(77,135,177,1);
+	background: #1b5288;
+}
+
+.forma label{
+	color: white;
+	font-size: 14px;
+}
+
+.forma label input {
+	height: 12px;
+	width: 15px;
+	margin-bottom: 20px;
+}
+
+.forma .button-submit {
+	color: white;
+	padding-left: 0;
+	width: 151px;
+	height: 37px;
+	background: url(../img/button-submit.png);
+}
+
+.forma .button-submit:hover,
+.forma label input:hover {
+	box-shadow: none;
+	background: url(../img/button-submit.png);
+}
+
+
+.forma p {
+	font-size: 12px;
+	text-align: center;
+	margin: auto;
+	color: white;
+	width: 320px;
+}
