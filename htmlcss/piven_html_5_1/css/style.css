@@ -1,5 +1,100 @@
 * {
 	margin: 0;
 	padding: 0;
-/*	border: 0;*/
+	border: 0;
+	background: black;
+}
+
+table {
+	width: 500px;
+	height: 541px;
+	border-collapse: collapse;
+	margin: auto;
+	border: none;
+}
+
+
+td {
+	border: 10px solid black;
+}
+
+.white11 {
+	width: 115px;
+	height: 46px;
+	background: white;
+	border-left: none;
+	border-top: none;
+}
+
+.white12 {
+	width: 198px;
+	height: 46px;
+	background-color: white;
+}
+
+.yellow13 {
+	width: 163px;
+	height: 46px;
+	background: url(../img/yellow13.png);
+}
+
+.white21 {
+	width: 45px;
+	height: 130px;
+}
+
+.red22 {
+	width: 265px;
+	height: 261px;
+	background: url(../img/red.png);
+}
+
+.yellow23 {
+	width: 164px;
+	height: 126px;
+	background: url(../img/yellow23.png);
+}
+
+.white31 {
+	height: 199px;
+	width: 45px;
+}
+
+.white33,
+.white34 {
+	width: 80px;
+	height: 127px;
+}
+
+.white44 {
+	height: 57px;
+	width: 125px;
+
+}
+
+.black42,
+.black43,
+.black52,
+.black53 {
+	width: 60px;
+	height: 60px;
+	background: url(../img/black42.png);
+}
+
+.yellow51 {
+	height: 135px;
+	width: 50px;
+	background: url(../img/yellow51.png);
+}
+
+.blue55 {
+	height: 93px;
+	width: 162px;
+	background: url(../img/blue55.png);
+}
+
+.black63 {
+	height: 29px;
+	width: 130px;
+	background: url(../img/black63.png);
 }
