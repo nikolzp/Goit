@@ -2,12 +2,12 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	background: black;
+	/*background: black;*/
 }
 
 table {
-	width: 500px;
-	height: 541px;
+	width: 490px;
+	height: 540px;
 	border-collapse: collapse;
 	margin: auto;
 	border: none;
@@ -30,17 +30,21 @@ td {
 	width: 198px;
 	height: 46px;
 	background-color: white;
+	border-top: none;
 }
 
 .yellow13 {
 	width: 163px;
 	height: 46px;
+	border-top: none;
+	border-right: none;
 	background: url(../img/yellow13.png);
 }
 
 .white21 {
 	width: 45px;
-	height: 130px;
+	height: 122px;
+	border-left: none;
 }
 
 .red22 {
@@ -53,23 +57,29 @@ td {
 	width: 164px;
 	height: 126px;
 	background: url(../img/yellow23.png);
+	border-right: none;
 }
 
 .white31 {
 	height: 199px;
 	width: 45px;
+	border-left: none; 
 }
 
 .white33,
 .white34 {
 	width: 80px;
 	height: 127px;
+	border-right: none;
 }
 
 .white44 {
 	height: 57px;
 	width: 125px;
+}
 
+.white45 {
+	border-right: none;
 }
 
 .black42,
@@ -85,16 +95,28 @@ td {
 	height: 135px;
 	width: 50px;
 	background: url(../img/yellow51.png);
+	border-left: none;
+	border-bottom: none;
 }
 
 .blue55 {
 	height: 93px;
 	width: 162px;
 	background: url(../img/blue55.png);
+	border-right: none;
 }
 
 .black63 {
 	height: 29px;
 	width: 130px;
 	background: url(../img/black63.png);
+}
+
+.white62 {
+	border-bottom: none;
+}
+
+.white73 {
+	border-bottom: none;
+	border-right: none;
 }
