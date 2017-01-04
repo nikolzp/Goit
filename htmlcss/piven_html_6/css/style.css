@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1000px;
+	height: 1310px;
+	margin: 0 auto;
+	border: 1px solid gray;
+	font-family: Arial;
+}
+
+header {
+	display: inline-flex;
+}
+
+.phone {
+	display: inline-flex;
+	margin-top: 22px;
+	margin-left: 52px;
+}
+
+.phone p {
+	font-size: 19px;
+	margin-left: 5px;
+}
+
+.registration {
+	
+}
