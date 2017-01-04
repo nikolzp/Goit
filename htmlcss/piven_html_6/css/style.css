@@ -15,17 +15,74 @@ header {
 	display: inline-flex;
 }
 
-.phone {
-	display: inline-flex;
-	margin-top: 22px;
-	margin-left: 52px;
+.phone img{
+	margin-top: 24px;
+	margin-left: 57px;
 }
 
 .phone p {
+	margin-top: -25px;
 	font-size: 19px;
-	margin-left: 5px;
+	margin-left: 82px;
 }
 
 .registration {
-	
+	display: inline-flex;
+	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	width: 496px;
+	height: 26px;
+	margin-top: 20px;
+	margin-left: 15px;
+	box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
+	border-radius: 5px;
+}
+
+.registration img {
+	margin-left: 6px;
+	margin-top: 5px;
+	margin-bottom: auto;
+}
+
+.registration form {
+	display: flex;
+	margin-top: 4px;
+	margin-left: 3px;
+}
+
+.registration input {
+	height: 13px;
+	width: 111px;
+	font-size: 11px;
+	margin-right: 6px;
+}
+
+.registration a {
+	margin: 6px 5px 6px 2px;
+	font-size: 11px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.registration p {
+	margin: 6px 2px 6px -1px;
+	font-size: 10px;
+	color: white;
+}
+
+.registration .foget-pass {
+	margin: 5px 0 6px 13px;
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	text-decoration: underline;
+}
+
+.navi {
+	display: inline-flex;
+	background: url(../img/navi.png) no-repeat;
+	height: 21px;
+	width: 76px;
+	margin-left: 16px;
+	margin-top: 21px;
 }
