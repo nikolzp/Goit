@@ -3,12 +3,28 @@
 	padding: 0;
 }
 
+@font-face {
+    font-family: 'lucida_sans_unicoderegular';
+    src: url('../fonts/lsansuni-webfont.woff2') format('woff2'),
+         url('../fonts/lsansuni-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lucida_sans_unicoderegular';
+    src: url('../fonts/lucida_sans_unicode-webfont.woff2') format('woff2'),
+         url('../fonts/lucida_sans_unicode-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	width: 1000px;
 	height: 1310px;
 	margin: 0 auto;
 	border: 1px solid gray;
-	font-family: Arial;
+	font-family: arial;
 }
 
 header {
@@ -22,14 +38,14 @@ header {
 
 .phone p {
 	margin-top: -25px;
-	font-size: 19px;
+	font-size: 18.5px;
 	margin-left: 82px;
 }
 
 .registration {
 	display: inline-flex;
 	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
-	width: 496px;
+	width: 495px;
 	height: 26px;
 	margin-top: 20px;
 	margin-left: 15px;
@@ -99,3 +115,33 @@ header {
 	margin-top: 56px;
 	margin-left: 50px;
 }
+
+nav {
+	display: inline-flex;
+	align-items: center;
+	background: url(../img/bacground-menu.png);
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+	margin-top: 253px;
+	margin-left: 50px;
+	width: 910px;
+	height: 33px;
+	border: 1px solid #0a1030;
+	border-radius: 5px;
+}
+
+nav ul {
+	font-family: 'lucida_sans_unicoderegular';
+	margin-left: 145px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav li {
+	display: inline-flex;
+	margin-right: 27px;
+	font-size: 14px;
+}
+
