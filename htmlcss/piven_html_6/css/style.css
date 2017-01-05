@@ -12,7 +12,7 @@ body {
 }
 
 header {
-	display: inline-flex;
+	display: flex;
 }
 
 .phone img{
@@ -80,9 +80,22 @@ header {
 
 .navi {
 	display: inline-flex;
+	align-items: center;
 	background: url(../img/navi.png) no-repeat;
 	height: 21px;
 	width: 76px;
 	margin-left: 16px;
 	margin-top: 21px;
+}
+
+.navi a {
+	margin-left: 9px;
+	margin-bottom: 2px;
+
+}
+
+.baner {
+	position: absolute;
+	margin-top: 56px;
+	margin-left: 50px;
 }
