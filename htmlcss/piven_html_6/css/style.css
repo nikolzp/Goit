@@ -130,8 +130,11 @@ nav {
 }
 
 nav ul {
+	display: inline-flex;
+	justify-content: space-between;
 	font-family: 'lucida_sans_unicoderegular';
 	margin-left: 145px;
+	width: 488px;
 }
 
 nav a {
