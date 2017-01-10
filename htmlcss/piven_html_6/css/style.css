@@ -117,8 +117,6 @@ header {
 }
 
 nav {
-	display: inline-flex;
-	align-items: center;
 	background: url(../img/bacground-menu.png);
 	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
 	margin-top: 253px;
@@ -133,8 +131,9 @@ nav ul {
 	display: inline-flex;
 	justify-content: space-between;
 	font-family: 'lucida_sans_unicoderegular';
-	margin-left: 145px;
-	width: 488px;
+	margin-left: 132px;
+	margin-top: 5px;
+	width: 465px;
 }
 
 nav a {
@@ -144,7 +143,89 @@ nav a {
 
 nav li {
 	display: inline-flex;
-	margin-right: 27px;
-	font-size: 14px;
+	color:  #ffffff;
+	font-size: 13.64px;
+	text-align: center;
+	transform: scaleY(1.0003);
+	padding: 0 8px 0 8px;
 }
 
+nav a:hover {
+	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	border-radius: 14px;
+}
+ 
+.basket {
+	display: inline-flex;
+	float: right;
+	align-items: center;
+	margin-top: 6px;
+	margin-right: 13px;
+}
+
+.basket img {
+	margin-top: 1px;
+}
+
+.basket .text {
+	display: block;
+	color:  #929b9f;
+	font-size: 11px;
+	letter-spacing: 0.44px;
+	margin-left: 8px;
+}
+
+.basket .num {
+	display: block;
+	margin-top: 1px;
+	color:  #0d5a8f;
+	font-size: 12px;
+	letter-spacing: 0.48px;
+}
+
+.find {
+	margin-left: 54px;
+	margin-top: 8px;
+}
+
+.find img {
+	margin-right: 1px; 
+}
+
+/*left aside*/
+
+.asleft {
+	float: left;
+	margin-left: 48px;
+	margin-top: 7px;
+}
+
+.catalog {
+	border: 1px solid #79878d;
+	box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
+	width: 181px;
+	height: 25px;
+	border-radius: 15px;	
+}
+
+.icon {
+	float: left;
+	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%); 
+	border-radius: 50%;
+	width: 22px;
+	height: 22px;
+}
+
+.icon img{
+	margin-top: 4px;
+	margin-left: 5px;
+}
+
+.catalog p {
+	float: left;
+	font-family: 'lucida_sans_unicoderegular';
+	color: #114165;
+	font-size: 12.73px;
+	line-height: 28px;
+	transform: scaleY(1.0003);
+}
