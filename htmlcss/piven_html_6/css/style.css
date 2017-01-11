@@ -205,20 +205,23 @@ nav a:hover {
 	box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
 	width: 181px;
 	height: 25px;
-	border-radius: 15px;	
+	border-radius: 15px;
+	margin-bottom: 11px;	
 }
 
 .icon {
 	float: left;
 	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%); 
 	border-radius: 50%;
-	width: 22px;
-	height: 22px;
+	width: 20px;
+	height: 20px;
+	margin-left: 3px;
+	margin-top: 2px;
 }
 
 .icon img{
-	margin-top: 4px;
-	margin-left: 5px;
+	margin-top: 3px;
+	margin-left: 4px;
 }
 
 .catalog p {
@@ -227,5 +230,55 @@ nav a:hover {
 	color: #114165;
 	font-size: 12.73px;
 	line-height: 28px;
-	transform: scaleY(1.0003);
+	margin-left: 5px;
+}
+
+
+.borderitems {
+	margin-left: 4px;
+	border: 1px solid #79878d;
+	width: 148px;
+	height: 26px;
+	border-radius: 15px;
+}
+
+.titleitems {
+	margin-top: 2px;
+	margin-left: 3px;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	border: 5px solid #114165;
+}
+
+.titleitems p {
+	margin-left: 20px;
+	padding-top: 1px;
+	color:  #0c3256;
+	font-size: 14px;
+	line-height: 13px;
+}
+
+.items ul{
+	margin-left: 50px;
+}
+
+.items a {
+	text-decoration: none;
+}
+
+.items li {
+	font-family: 'lucida_sans_unicoderegular';
+	color:  #114165;
+	font-size: 12px;
+	line-height: 26px;
+	letter-spacing: 0.3px;
+	text-align: left;
+}
+
+.items li:hover {
+	font-style: italic;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
 }
