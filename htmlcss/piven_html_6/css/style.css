@@ -192,6 +192,7 @@ nav a:hover {
 	margin-right: 1px; 
 }
 
+
 /*left aside*/
 
 .asleft {
@@ -206,7 +207,7 @@ nav a:hover {
 	width: 181px;
 	height: 25px;
 	border-radius: 15px;
-	margin-bottom: 11px;	
+	margin-bottom: 13px;	
 }
 
 .icon {
@@ -261,6 +262,7 @@ nav a:hover {
 
 .items ul{
 	margin-left: 50px;
+	margin-bottom: -5px;
 }
 
 .items a {
@@ -281,4 +283,151 @@ nav a:hover {
 	font-size: 13px;
 	font-weight: bold;
 	text-decoration: underline;
+}
+
+
+/*main*/
+
+main {
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	width: 527px;
+	height: 628px; 
+	background: linear-gradient(0deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	margin-left: 9px;
+	margin-top: 3px;
+}
+
+.details {
+	margin-top: -4px;
+	width: 138px;
+}
+
+figure {
+	border-radius: 7px;
+	border: 1px solid #a4aeb1;
+	background-color:  #ffffff;
+	width: 137px;
+	height: 124px;
+	text-align: center;
+	padding-top: 3px;
+}
+
+figure img {
+	margin-top: 2px;
+}
+
+.brand {
+	font-family: 'lucida_sans_unicoderegular';
+	text-decoration: none;
+	color: #206988;
+	font-size: 14.59px;
+	line-height: 14px;
+	text-align: center;
+}
+
+.det {
+	text-decoration: none;
+	color:  #1f2528;
+	font-size: 12.77px;
+	line-height: 14px;
+	text-align: center;
+}
+
+.price {
+	font-family: Arial;
+	margin-top: 5px;
+	margin-left: 5px;
+	color:  #114165;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 11px;
+	text-align: center;
+}
+
+main .firstcol {
+	margin-left: 11px;
+}
+
+main .secondcol {
+	margin-right: -1px;
+}
+
+main .thirdcol {
+	margin-right: 17px;
+}
+
+
+/*asright*/
+
+.asright {
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.asright .icon {
+	float: left;
+	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%); 
+	border-radius: 50%;
+	width: 22px;
+	height: 22px;
+	margin-left: 2px;
+	margin-top: 1px;
+}
+
+.asright .icon .img {
+	margin-top: 4px;
+	margin-left: 5px;
+}
+
+.asright .borderitems {
+	margin-left: 14px;
+	width: 134px;
+	margin-bottom: 3px;
+}
+
+.asright .titleitems p{
+	margin-left: 22px;
+}
+
+aside form {
+	display: flex;
+	flex-direction: column;
+	font-family: 'lucida_sans_unicoderegular';
+    color: #114165;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    margin-left: 32px;
+    margin-bottom: 5px;
+}
+
+.submit {
+	color: #e5e9ea;
+	border: 1px solid #a7abae;
+	border-radius: 12px;
+	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	width: 80px;
+	height: 26px;
+	margin-top: 10px;
+	margin-left: -8px;
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 0.44px;
+	text-align: center;
+}
+
+.brands {
+	clear: both;
+	padding-top: 30px;
+	margin-left: 164px;
+}
+
+.brands img {
+	padding-right: 10px;
 }
