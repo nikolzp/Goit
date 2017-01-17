@@ -3,12 +3,63 @@
 	padding: 0;
 }
 
-body {
-	width: 960px;
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-header {
+.vrapper {
+	font-family: 'league_gothicregular';
+	margin-left: 2px;
+}
+
+.header {
 	width: 2400px;
 	height: 869px;
+	margin: 0 auto;
 	background-image: url(../img/background-header.jpg);
+}
+
+.header_content {
+	width: 961px; 
+	margin: 0 auto;
+}
+
+.logolink {
+	display: block;
+	float: left;
+	padding-top: 50px;
+	margin-left: 2px;
+}
+
+.navigation {
+	float: left;
+	width: 784px;
+}
+
+.list {
+	margin-left: 98px;
+	margin-top: 69px;
+}
+
+.items {
+	display: inline-flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin-left: 50px;
+}
+
+.items__link {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	line-height: 33.724px;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.items:hover {
+	border-bottom: 3px solid  #eebfff
 }
