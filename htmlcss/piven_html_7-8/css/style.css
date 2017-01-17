@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 960px;
+}
+
+header {
+	width: 2400px;
+	height: 869px;
+	background-image: url(../img/background-header.jpg);
+}
