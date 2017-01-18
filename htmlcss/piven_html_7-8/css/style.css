@@ -11,9 +11,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fints/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .vrapper {
 	font-family: 'league_gothicregular';
-	margin-left: 2px;
+	/*margin-left: 2px;*/
 }
 
 .header {
@@ -32,16 +40,16 @@
 	display: block;
 	float: left;
 	padding-top: 50px;
-	margin-left: 2px;
 }
 
 .navigation {
 	float: left;
 	width: 784px;
+	margin-bottom: 175px;
 }
 
 .list {
-	margin-left: 98px;
+	margin-left: 102px;
 	margin-top: 69px;
 }
 
@@ -49,7 +57,7 @@
 	display: inline-flex;
 	flex-direction: row;
 	list-style-type: none;
-	margin-left: 50px;
+	margin-left: 48px;
 }
 
 .items__link {
@@ -62,4 +70,42 @@
 
 .items:hover {
 	border-bottom: 3px solid  #eebfff
+}
+
+.slider {
+	clear: both;
+	margin-left: -720px;
+	background-color:  rgba(0, 0, 0, 0.2);
+	width: 2400px;
+	height: 400px;
+}
+
+.descat {
+	margin-left: 720px;
+	padding-top: 84px;
+	width: 500px;
+
+}
+
+.slider__descr {
+	color:  #fefefe;
+	font-size: 59px;
+	font-weight: 400;
+	line-height: 49px;
+}
+
+.slider__minidescr {
+	color:  #eebfff;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 46px;
+}
+
+.slider__aticle {
+	font-family: 'open_sansregular';
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: -1px;
 }
