@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'open_sansregular';
-    src: url('../fints/opensans-regular-webfont.woff2') format('woff2'),
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
          url('../fonts/opensans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -27,7 +27,6 @@
 .header {
 	width: 2400px;
 	height: 869px;
-	margin: 0 auto;
 	background-image: url(../img/background-header.jpg);
 }
 
@@ -69,7 +68,8 @@
 }
 
 .items:hover {
-	border-bottom: 3px solid  #eebfff
+	border-bottom: 3px solid  #eebfff;
+	box-sizing: border-box;
 }
 
 .slider {
@@ -81,6 +81,7 @@
 }
 
 .descat {
+	float: left;
 	margin-left: 720px;
 	padding-top: 84px;
 	width: 500px;
@@ -101,7 +102,7 @@
 	line-height: 46px;
 }
 
-.slider__aticle {
+.slider__article {
 	font-family: 'open_sansregular';
 	color:  #ffffff;
 	font-size: 18px;
@@ -109,3 +110,82 @@
 	line-height: 24px;
 	letter-spacing: -1px;
 }
+
+.image {
+	float: left;
+	margin-left: 116px;
+	margin-top: -16px;
+}
+
+
+/*main*/
+
+.about {
+	width: 2400px;
+	height: 1460px;
+	margin-top: -23px;
+	background: url(../img/fiolet.png) no-repeat;
+	border-top: 1px solid black;
+}
+
+.iconsback {
+	background: url(../img/icons.png) no-repeat;
+	height: 30px;
+	width: 705px;
+	margin-left: 729px;
+	margin-top: 81px;
+}
+
+.box-article {
+	display: inline-flex;
+	float: left;
+	margin-left: 783px;
+}
+
+.box-article1,
+.box-article2,
+.box-article3 {
+	width: 223px;
+	height: 113px;
+	margin-top: -33px;
+	margin-right: 116px;
+}
+
+.box-article-descr {
+	color:  #ffffff;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 24px;
+	text-shadow: 0px 1px 0px #0f1518;
+	margin-bottom: 10px; 
+}
+
+.box-article-article {
+	font-family: 'open_sansregular';
+	color:  #ffffff;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: left;
+	letter-spacing: -1px;
+	text-shadow: 0px 1px 0px #0f1518;
+}
+
+.box-article-rmore{
+	text-align: right;
+	margin-top: 18px;
+	margin-right: 5px;
+}
+
+.box-article-rmore__link {
+	color:  #ffffff;
+	font-size: 18px;
+	line-height: 24px;
+	text-shadow: 0px 1px 0px #0f1518;
+	text-decoration: none;
+}
+
+.box-article-rmore__link:hover {
+	text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
+
