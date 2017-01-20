@@ -191,12 +191,13 @@
 
 .blog {
 	background: #f9f9f9;
-	position: absolute;
-	height: 1018px;
+	height: 482px;
 	width: 2400px;
+	border-bottom: 1px solid #e6e6e6;
 }
 
 .pingbuller {
+	float: left;
 	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 	width: 387px;
 	height: 242px;
@@ -217,4 +218,59 @@
 
 .box-article-article--pingbuller {
 	color: black;
+}
+
+.recent {
+	float: left;
+	margin-left: 56px;
+	margin-top: 135px;
+	width: 470px;
+}
+
+.blog-icons {
+	float: left;
+	margin-right: 20px;
+}
+
+.box-article--recent {
+	color: black;
+	margin-bottom: 17px;
+}
+
+.blog-recent {
+	margin-bottom: 16px;
+}
+
+.recent-deskr {
+	font-family: 'open_sansregular';
+	color:  #454545;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.recent-short-article {
+	font-family: 'open_sansregular';
+	color:  #454545;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.recent-rmh {
+	text-align: right;
+	color: #454545;
+	font-size: 18px;
+	text-shadow: 0px 1px 0px #ffffff;
+	margin: 24px 37px 0 0;
+}
+
+.lable {
+	height: 120px;
+	width: 2400px;
+	background: #f9f9f9;
+}
+
+.lables {
+	margin-left: 150px;
+	margin-top: 20px;
 }
