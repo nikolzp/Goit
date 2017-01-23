@@ -280,7 +280,6 @@
 	width: 2400px;
 	background: #ececec;
 	padding-top: 98px;
-	margin-left: -63px;
 }
 
 .box-article1--blogf,
@@ -320,11 +319,54 @@
 /*footer*/
 
 .footer {
-	height: 114px;
 	width: 2400px;
-	background: url(../img/footer.png)
+	height: 114px;
+	background: url(../img/footer.png) no-repeat;
 }
 
 .navigation--footer {
+	margin-bottom: 0px;
+	width: 0;
+}
+
+.list--footer {
 	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 579px;
+	height: 114px;
+	margin-left: 694px;
+	margin-top: 0;
+}
+
+.list--footer .items__link {
+	font-size: 20px;
+}
+
+.list--footer .items {
+	margin-left: 0;
+}
+
+.design	{
+	display: flex;
+	float: right;
+	justify-content: flex-start;
+	align-items: center;
+	width: 857px;
+	height: 114px;
+}
+
+.design-firstword {
+	font-family: 'open_sansregular';
+	color:  #ffffff;
+	font-size: 12px;
+	line-height: 33.724px;
+}
+
+.design-secondword {
+	font-family: 'open_sansregular';
+	color:  #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 33.724px;
 }
