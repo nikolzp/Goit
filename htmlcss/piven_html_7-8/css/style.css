@@ -21,7 +21,6 @@
 
 .vrapper {
 	font-family: 'league_gothicregular';
-	/*margin-left: 2px;*/
 }
 
 .header {
@@ -217,7 +216,7 @@
 }
 
 .box-article-article--pingbuller {
-	color: black;
+	color: #454545;
 }
 
 .recent {
@@ -268,9 +267,64 @@
 	height: 120px;
 	width: 2400px;
 	background: #f9f9f9;
+	border-bottom: 1px solid #e6e6e6;
 }
 
 .lables {
-	margin-left: 150px;
-	margin-top: 20px;
+	margin-left: 814px;
+	padding-top: 25px;
+}
+
+.blogf {
+	height: 300px;
+	width: 2400px;
+	background: #ececec;
+	padding-top: 98px;
+	margin-left: -63px;
+}
+
+.box-article1--blogf,
+.box-article2--blogf,
+.box-article3--blogf {
+	width: 275px;
+	height: 200px;
+	margin-top: 2px;
+	margin-right: 64px;
+}
+
+.box-article-descr--blogf{
+	color: #454444
+}
+
+.box-article-descr--blogfb {
+	color: #454545;
+	font-size: 48px;
+	margin-top: 10px;
+	margin-bottom: 24px;
+}
+
+.copyright {
+	font-family: Georgia;
+	color:  #c5c5c5;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 24px;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+.box-article-article--blogf {
+	color: #787878;
+}
+
+
+/*footer*/
+
+.footer {
+	height: 114px;
+	width: 2400px;
+	background: url(../img/footer.png)
+}
+
+.navigation--footer {
+	display: inline-flex;
 }
