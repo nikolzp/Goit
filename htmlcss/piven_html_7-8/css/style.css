@@ -168,7 +168,8 @@
 	}
 }
 
-.slider__article {
+.slider__article
+ {
 	font-family: 'open_sansregular';
 	color:  #ffffff;
 	font-size: 18px;
@@ -351,18 +352,55 @@
 	margin-top: 129px;
 }
 
+@media (max-width: 768px) {
+	.pingbuller {
+		width: 285px;
+		height: 242px;
+		margin-left: 878px;
+		margin-top: 131px;
+	}
+}
+
 .pingbuller-photo {
 	float: left;
 	margin-left: -63px;
 	margin-top: -12px; 
 }
+@media (max-width: 768px) {
+	.pingbuller-photo {
+		margin-left: -45px;
+	}
+}
 
 .box-article--pingbuller {
-	color: black;
+	color: #454545;
+}
+
+@media (max-width: 768px) {
+	.box-article--pingbuller{
+		font-size: 23px;
+		margin-bottom: 33px;
+		padding-left: 19px;
+		text-shadow: none;
+		color: #454545;
+	}
 }
 
 .box-article-article--pingbuller {
 	color: #454545;
+}
+
+@media (max-width: 768px) {
+	.box-article-article--pingbuller {
+		text-shadow: none;
+		font-size: 16px;
+		padding-left: 15px;
+	}
+}
+@media (max-width: 768px) {
+	.box-article-article--pingbuller768 {
+		display: none;
+	}
 }
 
 .recent {
@@ -370,6 +408,14 @@
 	margin-left: 56px;
 	margin-top: 135px;
 	width: 470px;
+}
+
+@media (max-width: 768px) {
+	.recent {
+		margin-left: 65px;
+		margin-top: 135px;
+		width: 465px;
+	}
 }
 
 .blog-icons {
@@ -382,9 +428,17 @@
 	margin-bottom: 17px;
 }
 
-.blog-recent {
-	margin-bottom: 16px;
+@media (max-width: 768px) {
+	.box-article--recent {
+		font-size: 30px;
+		margin-bottom: 21px;
+	}
 }
+
+.blog-recent {
+	margin-bottom: 19px;
+}
+
 
 .recent-deskr {
 	font-family: 'open_sansregular';
@@ -394,11 +448,24 @@
 	line-height: 24px;
 }
 
+@media (max-width: 768px) {
+	.recent-deskr {
+		word-spacing: 5px;
+	}
+}
+
 .recent-short-article {
 	font-family: 'open_sansregular';
 	color:  #454545;
 	font-size: 16px;
 	line-height: 24px;
+}
+
+
+@media (max-width: 768px) {
+	.recent-short-article768 {
+		display: none;
+	}
 }
 
 .recent-rmh {
@@ -407,6 +474,27 @@
 	font-size: 18px;
 	text-shadow: 0px 1px 0px #ffffff;
 	margin: 24px 37px 0 0;
+}
+
+@media (max-width: 768px) {
+	.recent-rmh {
+		display: none;
+	}
+}
+
+.recent-mbp {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.recent-mbp {
+		text-align: right;
+		display: block;
+		padding-right: 10px;
+		font-size: 18px;
+		margin-right: 129px;
+		margin-top: 1px;
+	}
 }
 
 .lable {
