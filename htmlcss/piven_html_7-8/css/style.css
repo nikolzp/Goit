@@ -41,6 +41,14 @@
 	}
 }
 
+@media (max-width: 480px) {
+	.header_content {
+		width: 480px;
+		margin: 0 auto;
+	}
+}
+
+
 .logolink {
 	display: block;
 	float: left;
@@ -52,6 +60,22 @@
 		display: block;
 		float: left;
 		padding-top: 50px;
+	}
+}
+
+@media (max-width: 480px) {
+	.logolink {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		padding-top: 50px;
+	}
+}
+
+@media (max-width: 480px) {
+	.logolink__logo {
+		display: block;
+		margin: 0 auto;
 	}
 }
 
