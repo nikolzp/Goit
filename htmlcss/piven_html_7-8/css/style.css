@@ -167,6 +167,10 @@
 	margin-left: -80px;
 }
 
+.back .items__link {
+	display: block;
+}
+
 @media (max-width: 480px) {
 	.list480 {
 		display: none;
