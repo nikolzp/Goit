@@ -220,7 +220,7 @@
 
 @media (max-width: 480px) {
 	.slider {
-		margin-top: 20px;
+		margin-top: 14px;
 		clear: both;
 		margin-left: -960px;
 		background-color:  rgba(0, 0, 0, 0.2);
@@ -244,6 +244,15 @@
 	}
 }
 
+@media (max-width: 480px) {
+	.descat {
+		float: left;
+		margin-left: 988px;
+		padding-top: 94px;
+		width: 500px;
+	}
+}
+
 .slider__descr {
 	color:  #fefefe;
 	font-size: 59px;
@@ -260,6 +269,16 @@
 	}
 }
 
+@media (max-width: 480px) {
+	.slider__descr {
+		color:  #fefefe;
+		font-size: 36px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+}
+
+
 .slider__minidescr {
 	color:  #eebfff;
 	font-size: 32px;
@@ -275,6 +294,16 @@
 		line-height: 41px;
 	}
 }
+
+@media (max-width: 480px) {
+	.slider__minidescr {
+		color:  #eebfff;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 40px;
+	}
+}
+
 
 .slider__article
  {
@@ -305,10 +334,22 @@
 	}
 }
 
+@media (max-width: 480px) {
+	.slider__article {
+		display: none;
+	}
+}
+
+
 .image {
 	float: left;
 	margin-left: 116px;
 	margin-top: -16px;
+}
+
+.image480 {
+	float: left;
+	display: none;
 }
 
 @media (max-width: 768px) {
@@ -318,6 +359,21 @@
 		margin-top: -24px;
 	}
 }
+
+@media (max-width: 480px) {
+	.image {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.image480 {
+		display: block;
+		margin-left: -279px;
+		margin-top: -10px;
+	}
+}
+
 
 /*main*/
 
@@ -335,6 +391,16 @@
 	}
 }
 
+@media (max-width: 480px) {
+	.about {
+		width: 2400px;
+		height: 598px;
+		margin-top: -323px;
+		background: url(../img/fiolet480.png) no-repeat;
+	}
+}
+
+
 .iconsback {
 	background: url(../img/icons.png) no-repeat;
 	height: 30px;
@@ -351,6 +417,17 @@
 	}
 }
 
+@media (max-width: 480px) {
+	.iconsback {
+		float: left;
+		background: url(../img/icons480.png) no-repeat;
+		margin-left: 975px;
+		margin-top: 80px;
+		height: 347px;
+		width: 30px;
+	}
+}
+
 .box-article {
 	display: inline-flex;
 	float: left;
@@ -363,13 +440,20 @@
 	}
 }
 
+@media (max-width: 480px) {
+	.box-article {
+		margin-left: 899px;
+		margin-top: -254px;
+	}
+}
+
 .box-article1,
 .box-article2,
 .box-article3 {
-	width: 218px;
 	height: 113px;
 	margin-top: -33px;
 	margin-right: 116px;
+	width: 218px;
 }
 
 @media (max-width: 768px) {
@@ -380,6 +464,19 @@
 		margin-right: 33px;
 	}
 }
+
+@media (max-width: 480px) {
+	.box-article1,
+	.box-article2,
+	.box-article3 {
+		margin-right: 31px;
+		margin-top: -124px;
+		height: 124px;
+		width: 364px;
+		margin-left: 114px;
+	}
+}
+
 
 .box-article-descr {
 	color:  #ffffff;
