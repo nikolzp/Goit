@@ -46,8 +46,25 @@ var form = document.createElement('form');
 form.setAttribute('class', 'form');
 body.appendChild(form);
 
-forma = {
-	p = document.createElement('p');
-	input = document.createElement('input');
-	input.setAttribute('type', 'checkbox');
-}
+
+p = document.createElement('p');
+p.innerHTML = '1. Вопрос №1';
+form.appendChild(p);
+
+input = document.createElement('input');
+input.setAttribute('type', 'checkbox');
+form.appendChild(input);
+
+span = document.createElement('span');
+span.innerHTML = 'Вариант ответа №1';
+span.style.marginLeft = '10px';
+form.appendChild(span);
+
+input = document.createElement('input');
+input.setAttribute('type', 'checkbox');
+form.appendChild(input);
+
+span = document.createElement('span');
+span.innerHTML = 'Вариант ответа №2';
+span.style.marginLeft = '10px';
+form.appendChild(span);
