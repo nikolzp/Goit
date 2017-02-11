@@ -5,8 +5,6 @@ for (var i = 1; i <= 5; i++) {
 	arr.push(name);
 }
 
-console.log(arr);
-
 var yourName = prompt("Enter your name!");
 
 for (var i = 0; i < arr.length; i++) {

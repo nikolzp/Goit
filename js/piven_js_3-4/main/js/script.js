@@ -28,7 +28,7 @@ theme = {
 golos = {
 	tegInput: 'input',
 	tegSpan: 'span',
-	func: function(num) {
+	paragraph: function(num) {
 		this.tegInput = document.createElement('input');
 		this.tegInput.setAttribute('type', 'checkbox');
 		form.appendChild(this.tegInput);
@@ -40,14 +40,21 @@ golos = {
 }
 
 theme.themeGolos(1);
-golos.func(1);
-golos.func(2);
-golos.func(3);
+golos.paragraph(1);
+golos.paragraph(2);
+golos.paragraph(3);
 theme.themeGolos(2);
-golos.func(1);
-golos.func(2);
-golos.func(3);
+golos.paragraph(1);
+golos.paragraph(2);
+golos.paragraph(3);
 theme.themeGolos(3);
-golos.func(1);
-golos.func(2);
-golos.func(3);
+golos.paragraph(1);
+golos.paragraph(2);
+golos.paragraph(3);
+
+submit = document.createElement('input');
+submit.setAttribute('type', 'submit');
+submit.setAttribute('value', 'Проверить мои результаты');
+submit.style.marginTop = '20px';
+submit.style.marginLeft = '125px';
+form.appendChild(submit);
