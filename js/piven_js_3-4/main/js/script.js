@@ -13,15 +13,20 @@ body.appendChild(deskr);
 
 
 var form = document.createElement('form');
-form.setAttribute('class', 'form');
+form.setAttribute('class', 'form-vertical');
 body.appendChild(form);
+
+var div = document.createElement('div');
+div.setAttribute('class', 'form-group');
+form.appendChild(div);
 
 theme = {
 	tegP: 'p',
 	themeGolos: function(num) {
 		this.tegP = document.createElement('p');
-		this.tegP.innerHTML = num+'.Вопрос №'+num;
-		form.appendChild(this.tegP);
+		this.tegP.style.marginTop = '15px';
+		this.tegP.innerHTML = num+'. Вопрос №'+num;
+		div.appendChild(this.tegP);
 	}
 }
 
@@ -31,11 +36,12 @@ golos = {
 	paragraph: function(num) {
 		this.tegInput = document.createElement('input');
 		this.tegInput.setAttribute('type', 'checkbox');
-		form.appendChild(this.tegInput);
+		this.tegInput.style.marginRight = '10px';
+		div.appendChild(this.tegInput);
 
 		this.tegSpan = document.createElement('span');
 		this.tegSpan.innerHTML = 'Вариант ответа №'+num+'<br>';
-		form.appendChild(this.tegSpan);
+		div.appendChild(this.tegSpan);
 	}
 }
 
@@ -54,6 +60,7 @@ golos.paragraph(3);
 
 submit = document.createElement('input');
 submit.setAttribute('type', 'submit');
+submit.setAttribute('class', 'btn btn-primary');
 submit.setAttribute('value', 'Проверить мои результаты');
 submit.style.marginTop = '20px';
 submit.style.marginLeft = '125px';
