@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.vrapper {
+	height: 200px;
+	width: 300px;
+	font-family: arial;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+.startpause, 
+.numbers,
+.clear {
+	border: 1px solid black;
+	background-color: #e6e9ef;
+}
+
+.theme {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.timer {
+	height: 60px;
+	width: 220px;
+	margin: 0 auto;
+}
+
+.numbers {
+	text-align: right;
+}
+
+.startpause {
+	border-top: none;
+	height: 30px;
+	width: 60px;
+}
+
+.clear {
+	border-top: none;
+	height: 30px;
+	width: 60px;
+}
+
+.battons {
+	width: 323px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.start,
+.sop {
+	text-decoration: none;
+	padding-left: 8px;
+
+}

@@ -1,13 +1,6 @@
-var body = document.querySelector('body');
-
-var p = document.createElement('p');
-p.innerHTML = '1';
-body.appendChild(p);
-
-// var timer = setInterval(p, 10);
 
 
-console.log((0.1+0.2).toFixed(2));
+
 
 
 // var click = document.querySelector('input');
