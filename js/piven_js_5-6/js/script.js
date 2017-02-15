@@ -1,5 +1,5 @@
-
-
+var start = document.getElementsByClassName('start');
+start.addEventListener('click', function(){alert('text')})
 
 
 
