@@ -1,6 +1,57 @@
-var start = document.getElementsByClassName('start');
-start.addEventListener('click', function(){alert('text')})
+var start = document.querySelector('.start');
+function pause() {
+	if (start.innerHTML == "Start") {
+	start.innerHTML = "Pause";
+	} else {
+	start.innerHTML = "Start";
+	}
 
+}
+start.addEventListener('click', pause);
+
+
+var clear = document.querySelector('.clear');
+function stop() {
+	start.innerHTML = "Start";
+	clearInterval(timer);
+	milisec.innerHTML = '00';
+	sec.innerHTML = '00';
+	min.innerHTML = '00';
+
+}
+clear.addEventListener('click', stop);
+
+var timerMilisec = '00';
+var timerSec = '00';
+var timerMin = '00';
+var milisec = document.querySelector('.milisec');
+var sec = document.querySelector('.sec');
+var min = document.querySelector('.min');
+function milis(){
+	milisec.innerHTML = timerMilisec;
+	sec.innerHTML = timerSec;
+	timerMilisec++;
+	if (timerMilisec === 1000) {
+		timerMilisec = 0;
+		timerSec++;
+	} else {
+
+	}
+	clear;
+}
+
+var timer = setInterval(milis)
+
+
+
+
+
+
+// function stop() {
+// 	start.addEventListener('click', )
+// }
+
+// var stop = document.querySelector('.stop')
 
 
 // var click = document.querySelector('input');
