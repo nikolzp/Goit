@@ -2,13 +2,13 @@ var start = document.querySelector('.start');
 
 function pause() {
 	if (start.innerHTML == "Start") {
-	start.innerHTML = "Pause";
- 	timer = setInterval(milis);
+		start.innerHTML = "Pause";
+ 		timer = setInterval(milis);
 	} else {
-	start.innerHTML = "Start";
+		start.innerHTML = "Start";
 	}
 
-}
+}/
 start.addEventListener('click', pause);
 
 
