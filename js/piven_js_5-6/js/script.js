@@ -1,7 +1,9 @@
 var start = document.querySelector('.start');
+
 function pause() {
 	if (start.innerHTML == "Start") {
 	start.innerHTML = "Pause";
+ 	timer = setInterval(milis);
 	} else {
 	start.innerHTML = "Start";
 	}
@@ -40,7 +42,7 @@ function milis(){
 	clear;
 }
 
-var timer = setInterval(milis)
+
 
 
 
