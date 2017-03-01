@@ -3,28 +3,57 @@
 	padding: 0;
 }
 
+.vrapper {
+	height: 250px;
+	width: 550px;
+}
+
 .tab {
 	display: inline-flex;
-	justify-content: space-between;
-	height: 200px;
+	justify-content: space-around;
+	/*display: inline-block;*/
+	height: 250px;
 	width: 500px;
 	margin: 50px;
 	border: 1px solid #ccc;
 }
 
+.btn1 {
+	margin-left: -88px;
+}
+
+.btn2 {
+	margin-left: -139px;
+}
+
+.btn3 { 
+	margin-left: -211px; 
+}
+
 .batton {
-	flex: none;
+	position: fixed;
 	margin-top: 5px;
-	display: block;
 	margin-left: 10px;
 }
 
 li {
 	display: none;
 	list-style: none;
-	overflow: scroll;
-	height: 180px;
+	margin-top: 10px;
+	height: 190px;
 	width: 480px;
+	overflow: auto;
 }
 
+.li1 {
+	display: block;
+	margin-left: -85px;
+}
 
+.li2 {
+	margin-left: -250px;
+}
+
+.li3 {
+	margin-left: -417px;
+}

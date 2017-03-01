@@ -4,7 +4,7 @@ $(function(){
 	$links.on('click', function(e) {
 		var $submenu = $(this).children('li');
 		e.preventDefault();
-		$submenu.toggle();
+		$submenu.show();
 		$('li').not($submenu).hide();
 	});
 
