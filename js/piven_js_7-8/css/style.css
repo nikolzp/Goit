@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.tab {
+	display: inline-flex;
+	justify-content: space-between;
+	height: 200px;
+	width: 500px;
+	margin: 50px;
+	border: 1px solid #ccc;
+}
+
+.batton {
+	flex: none;
+	margin-top: 5px;
+	display: block;
+	margin-left: 10px;
+}
+
+li {
+	display: none;
+	list-style: none;
+	overflow: scroll;
+	height: 180px;
+	width: 480px;
+}
+
+
