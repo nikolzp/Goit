@@ -5,13 +5,14 @@
 
 .vrapper {
 	height: 250px;
-	width: 550px;
+	width: 1200px;
 }
 
 .tab {
 	display: inline-flex;
 	justify-content: space-around;
-	/*display: inline-block;*/
+	float:left;
+	position: fixed;
 	height: 250px;
 	width: 500px;
 	margin: 50px;
@@ -56,4 +57,56 @@ li {
 
 .li3 {
 	margin-left: -417px;
+}
+
+/*Form*/
+
+.form {
+	float: right;
+	margin: 50px;
+	width: 500px;
+	border: 1px solid #ccc;
+}
+
+.input {
+	margin: 20px;
+}
+
+input {
+	float:right;
+	margin-right: 200px;
+}
+
+.sh-h {
+	margin-right: 405px;
+}
+
+.help {
+	display: none;
+	width: 200px;
+	background: #e8eaed;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 1px 1px rgba(232, 234, 237,0.15);
+}
+
+.show {
+	display: block;
+}
+
+.helpsF {
+	position: absolute;
+	margin-left: 290px;
+	margin-top: -135px;
+}
+
+.helpsL {
+	position: absolute;
+	margin-left: 290px;
+	margin-top: -90px;
+}
+
+.helpsA {
+	position: absolute;
+	margin-left: 290px;
+	margin-top: -44px;
 }
