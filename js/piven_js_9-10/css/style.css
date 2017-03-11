@@ -4,10 +4,10 @@
 }
 
 .carusel {
-  height: 400px;
   width: 750px;
   margin: 0 auto;
   margin-top: 10px;
+  height: 315px;
 }
 
 .jcarousel {
@@ -79,3 +79,49 @@
   opacity: 1;
   box-shadow: 0 0 2px #F0EFE7;
 }
+
+/*SELECT*/
+ .select {
+   width: 50px;
+   margin: 0 auto;
+ }
+
+/*CHECKBOXJS*/
+.niceCheck {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  cursor: pointer;
+  background: url(../img/checkbox.png);
+}
+.niceCheck input {
+  display: none;
+}
+
+/*CHECKBOXCSS*/
+/*input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+label {
+	cursor: pointer;
+}
+label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox-2.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}
+label:hover:after {
+background-position: 0 -34px;
+}
+input[type=checkbox]:checked + label:hover:after {
+background-position: 0 -51px;
+}*/

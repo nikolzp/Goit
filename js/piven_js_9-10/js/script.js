@@ -1,4 +1,6 @@
 $(function() {
+
+  // CARUSELE
   $('.jcarousel')
     .jcarousel({
     })
@@ -23,4 +25,8 @@ $(function() {
     $('.jcarousel-pagination a').click(function() {
       $(this).addClass('active');
     });
-});
+// FORMSTYLER
+$('input, select').styler();
+
+
+});(jQuery)
