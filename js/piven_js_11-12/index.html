@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Carousel</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/tmpl.js"></script>
+		<script src="js/script.js"></script>
+  </head>
+  <body>
+		<div class="carousel-arrow-left"><span>Влево</span></div>
+		<div class="carousel-hider">
+			<ul class="carousel-list">
+		    <li class="carousel-element"><img src="img/image1.jpg"><p>Описание 1</p></li>
+				<li class="carousel-element"><img src="img/image2.jpg"><p>Описание 2</p></li>
+				<li class="carousel-element"><img src="img/image3.jpg"><p>Описание 3</p></li>
+		    <li class="carousel-element"><img src="img/image4.jpg"><p>Описание 4</p></li>
+		    <li class="carousel-element"><img src="img/image1.jpg"><p>Описание 5</p></li>
+		    <li class="carousel-element"><img src="img/image2.jpg"><p>Описание 6</p></li>
+		    <li class="carousel-element"><img src="img/image3.jpg"><p>Описание 7</p></li>
+		    <li class="carousel-element"><img src="img/image4.jpg"><p>Описание 8</p></li>
+		    <li class="carousel-element"><img src="img/image1.jpg"><p>Описание 9</p></li>
+		    <li class="carousel-element"><img src="img/image2.jpg"><p>Описание 10</p></li>
+		    <li class="carousel-element"><img src="img/image3.jpg"><p>Описание 11</p></li>
+		    <li class="carousel-element"><img src="img/image4.jpg"><p>Описание 12</p></li>
+	  	</ul>
+		</div>
+		 <div class="carousel-arrow-right"><span>Вправо</span></div>
+
+		<section>
+		<script type="text/template" id="id">
+			<div class="header">
+				<h1><%=name %></h1>
+				<img src="img/Piven_Nikolay.jpg" alt="My photo">
+				<p><%= position %></p>
+			</div>
+
+			<div class="liblock">
+				<p class="theme">Хочу учить фронтенд, потому что:</p>
+				<ul>
+					<li><%= why1%></li>
+					<li><%= why2%></li>
+					<li><%= why3%></li>
+				</ul>
+			</div>
+
+			<div class="comtacts">
+				<p class="theme">Мой контактный телефон:</p>
+				<p class="content"><%= namber %></p>
+				<p class="theme">Мой профиль Вконтакте:</p>
+				<a class="content" href="https://vk.com/id7400669">vk.com</a>
+			</div>
+
+			<div class="feedback">
+				<p class="theme">Мой фитбек:</p>
+				<p class="content"><%= feedback %></p>
+			</div>
+		</script>
+		</section>
+
+  </body>
+</html>
