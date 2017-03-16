@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/localstorage.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<section class="test">
+		<div class="deskription">Тест по программированию </div>
+		<script type="text/template" id="tests">
+			<div class="form">
+				<% for(var i = 0; i < data.length; i++) { %>
+					<h4><%= data[i].q %></h4>
+					<input type="checkbox">
+					<span><%= data[i].ans1 %><br></span>
+					<input type="checkbox">
+					<span><%= data[i].ans2 %><br></span>
+					<input type="checkbox">
+					<span><%= data[i].ans3 %><br></span>
+				<% }; %>
+					<input type="submit" class="btn btn-primary resultation" value="Проверить мои результаты">
+			</div>
+			
+		</script>
+	</section>
+</body>
+</html>
