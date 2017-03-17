@@ -31,4 +31,6 @@ $(function(){
 
 	});
 
+	localStorage.clear();
+	
 }); 
