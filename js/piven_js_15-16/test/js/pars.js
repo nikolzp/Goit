@@ -21,7 +21,7 @@ $(function(){
 		for (let value of r){
 			console.log('RightAnsver(s): ', value);
 		};
-		console.log('_________')
+		console.log('____________')
 		
 	});
 	localStorage.clear();

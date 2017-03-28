@@ -24,7 +24,7 @@ $(function() {
 		e.preventDefault();
 
 		for (let key in t) {
-			let value = ($(t[key]).val())
+			let value = $(t[key]).val()
 			if(value == '') {
 		 		alert('Заполните все поля');
 		 		break;
