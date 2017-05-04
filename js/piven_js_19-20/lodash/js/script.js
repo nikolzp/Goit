@@ -277,12 +277,11 @@ let a = [
 ]
 
 let skills = _.uniq(_.sortBy(_.flatten(_.map(a, 'skills'))));
+console.log('skils:', skills);
 
-console.log(skills)
+let friends = _.uniq(_.sortBy(_.flatten(_.map(a, 'friends'))));
+friends = _.map(friends, 'name');
+console.log('friends: ', friends);
 
-let names = _.map(a, 'name');
-console.log(names);
-
-let friends = _.map(a, 'friends');
-console.log(friends);
-
+let sortFriends = _.map(_.sortBy(a, 'friends'), 'name');
+console.log('sortFriends', sortFriends);
